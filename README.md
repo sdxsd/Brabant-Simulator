@@ -1,2 +1,2 @@
-# neder-oorlog
-Simple strategy game about suppressing the Belgian menace. 
+# Brabant Simulator
+Life how it is in Old Brabant
