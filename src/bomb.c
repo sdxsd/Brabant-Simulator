@@ -30,8 +30,7 @@ A program is free software if users have all of these freedoms.
 static	void	check_bombs(t_game *game, t_texstruct *textures) {
 
 	for (int iter = 0; iter < textures->bomb_db.obj_c; iter++) {
-		if (textures->bomb_db.objects[iter]->y > game->win_y - game->win_y / 2)
-		{
+		if (textures->bomb_db.objects[iter]->y > game->win_y - game->win_y / 2) {
 			push_to_explosion_stack(textures->bomb_db.objects[iter]->x,
 									textures->bomb_db.objects[iter]->y + 64,
 									game, textures);
